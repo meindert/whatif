@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4070631423">
+    <data-source source="LOCAL" name="Rails whatif: development" uuid="3151f5d7-15ca-4608-8f5e-2bfc6821bc4b">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:whatif_development</jdbc-url>
+      <user-name>whatif</user-name>
+      <user-password>dfdddfc2dfcbdfdedfc3dfcc</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails whatif: test" uuid="18fbedf7-e2eb-4c3a-956f-9e6e71c19d27">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:whatif_test</jdbc-url>
+      <user-name>whatif</user-name>
+      <user-password>dfdddfc2dfcbdfdedfc3dfcc</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails whatif: production" uuid="14ebf66e-2390-430c-8a39-9029a752bb89">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:whatif_production</jdbc-url>
+      <user-name>whatif</user-name>
+      <user-password>dfdddfc2dfcbdfdedfc3dfcc</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

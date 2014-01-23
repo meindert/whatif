@@ -1,0 +1,33 @@
+<%= form_for(@report, :remote => true) do |f| %>
+  <% if @report.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@report.errors.count, "error") %> prohibited this report from being saved:</h2>
+
+      <ul>
+      <% @report.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :report_month %><br />
+    <%= f.text_field :report_month %>
+  </div>
+  <div class="field">
+    <%= f.label :dealer_code %><br />
+    <%= f.text_field :dealer_code %>
+  </div>
+  <div class="field">
+    <%= f.label :brand %><br />
+    <%= f.text_field :brand %>
+  </div>
+  <div class="field">
+    <%= f.label :scenario %><br />
+    <%= f.number_field :scenario %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
